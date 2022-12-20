@@ -23,6 +23,5 @@ body {
   padding: 30px 15px 10px 15px;
   width: calc(100% - 30px);
   max-width: 370px;
-  min-height: 100vh;
 }
 </style>
