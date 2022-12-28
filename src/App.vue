@@ -40,7 +40,7 @@
 </template>
 
 <script>
-console.log( window.Telegram.WebApp.this.colorScheme);
+console.log( window.Telegram.WebApp);
 
 </script>
 
