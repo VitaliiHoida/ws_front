@@ -7,7 +7,7 @@
             <router-link :to="{name: 'home'}" title="На головну"><img src="@/assets/img/back.png" alt="back" v-if="$route.path !== '/'"/></router-link>
           </div>
           <div class="img_container">
-            <img src="@/assets/img/Logo_light.png" alt="Webnauts Space" v-if="window.Telegram.WebApp.colorScheme !== 'dark'"/>
+            <img src="@/assets/img/Logo_light.png" alt="Webnauts Space" v-if="them !== 'dark'"/>
             <img src="@/assets/img/Logo_dark.png" alt="Webnauts Space" v-else/>
           </div>
           <div class="support_container">
@@ -39,6 +39,16 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return{
+      them: ''
+    }
+  },
+  created() {
+    this.them = window.Telegram.WebApp.colorScheme;
+  }
+}
 </script>
 
 <style>
