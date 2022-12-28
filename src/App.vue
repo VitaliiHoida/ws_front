@@ -40,17 +40,8 @@
 </template>
 
 <script>
-export default {
-  name: 'mainApp',
-  data() {
-    return {
-      theme: '',
-    }
-  },
-  mounted() {
-    this.theme = window.Telegram.WebApp.this.colorScheme;
-  }
-}
+console.log( window.Telegram.WebApp.this.colorScheme);
+
 </script>
 
 <style>
