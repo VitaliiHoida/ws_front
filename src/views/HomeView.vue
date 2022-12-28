@@ -35,7 +35,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .items_wrap .item {

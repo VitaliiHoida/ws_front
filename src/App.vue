@@ -31,8 +31,6 @@
             <li><a href="tel:+380984775490">+380984775490</a></li>
           </ul>
         </div>
-
-
       </div>
     </div>
   </div>
@@ -85,7 +83,6 @@ body {
   padding: 30px 15px 10px 15px;
   width: calc(100% - 30px);
   max-width: 370px;
-  min-height: 100vh;
 }
 
 .fw {
