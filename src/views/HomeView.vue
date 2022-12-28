@@ -39,7 +39,7 @@ export default {
 }
 
 .items_wrap .item {
-  width: 48%;
+  width: 49%;
   text-align: center;
 }
 
