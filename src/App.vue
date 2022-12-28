@@ -15,6 +15,8 @@
         </div>
       </div>
       <router-view/>
+
+      {{theme}}
       <hr>
       <div class="contacts">
         <div class="phones">
@@ -38,7 +40,17 @@
 </template>
 
 <script>
-
+export default {
+  name: 'mainApp',
+  data() {
+    return {
+      theme: '',
+    }
+  },
+  mounted() {
+    this.theme = window.Telegram.WebApp.this.colorScheme;
+  }
+}
 </script>
 
 <style>
