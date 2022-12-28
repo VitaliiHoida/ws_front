@@ -16,8 +16,6 @@
         </div>
       </div>
       <router-view/>
-
-      {{theme}}
       <hr>
       <div class="contacts">
         <div class="phones">
