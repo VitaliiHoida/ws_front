@@ -311,7 +311,7 @@ input.promo:focus-visible {
 }
 
 
-.custom_check input:checked ~ .add_pic path {
-  stroke: var(--tg-theme-text-color);;
+.custom_check input:checked .add_pic path {
+  stroke: var(--tg-theme-text-color);
 }
 </style>
