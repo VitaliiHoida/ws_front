@@ -108,7 +108,7 @@ body {
 
 .contacts a{
   text-decoration: none;
-  color: var(--tg-theme-text-color);
+  color: #747474;
 }
 
 .phones ul{
