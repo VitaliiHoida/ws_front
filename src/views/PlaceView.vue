@@ -1,8 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="container">
-
-    </div>
+  <div class="item_wrapper">
+    place
   </div>
 </template>
 

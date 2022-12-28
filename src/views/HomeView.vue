@@ -1,6 +1,4 @@
 <template>
-  <div class="wrapper">
-    <div class="container">
       <div class="items_wrap">
 
         <div class="item">
@@ -16,8 +14,6 @@
         </div>
 
       </div>
-    </div>
-  </div>
 </template>
 
 <script>
