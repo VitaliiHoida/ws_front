@@ -162,8 +162,13 @@ export default {
       const {tg, queryId, user, chatId} = useTelegram();
       let order = {};
       order.user_name = user.first_name + ' ' + user.last_name;
-      // order.photo = this.course.ACF.bot_image;
       order.sum_to_pay = this.sum;
+      order.name = this.item_name;
+      order.text_sm = this.text_sm;
+      order.text_lg = this.text_lg;
+      order.sm = this.sm;
+      order.lg = this.lg;
+      order.addit = this.addit;
 
       tg.MainButton.setParams({
         text: 'Сплатити ' + order.sum_to_pay + ' грн.',
