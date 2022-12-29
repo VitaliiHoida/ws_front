@@ -31,8 +31,9 @@
       </div>
     </div>
     <div class="additional">
-      <label class="custom_check"><span class="text">Додаткове обладнання:</span>
+      <label class="custom_check">
         <input type="checkbox" class="check">
+        <span class="text">Додаткове обладнання:</span>
         <span class="checkmark"></span>
         <svg width="70" height="30" viewBox="0 0 70 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="add_pic">
           <g clip-path="url(#clip0_318_2329)">
@@ -161,14 +162,7 @@ export default {
   align-items: center;
 }
 
-.additional .check {
-  box-sizing: border-box;
-  height: 15px;
-  width: 15px;
-  margin: 0;
-}
-
-.additional span {
+.text {
   font-size: 14px;
   line-height: 14px;
   color: #747474;
@@ -238,9 +232,6 @@ input.promo:focus-visible {
 .buy {
   width: 100%;
 }
-
-
-
 
 /* Customize the label (the container) */
 .custom_check {
