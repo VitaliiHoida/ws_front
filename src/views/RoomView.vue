@@ -31,42 +31,39 @@
       </div>
     </div>
     <div class="additional">
-      <label class="custom_check"><span>Додаткове обладнання</span>
+      <label class="custom_check"><span>Додаткове обладнання:</span>
         <input type="checkbox" class="check">
         <span class="checkmark"></span>
+        <svg width="70" height="30" viewBox="0 0 70 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="add_pic">
+          <g clip-path="url(#clip0_318_2329)">
+            <path d="M7.5 20.4718V0.73043C7.5 0.569707 7.63031 0.439453 7.79098 0.439453H22.6777C22.8384 0.439453 22.9687 0.569766 22.9687 0.73043V29.2695C22.9687 29.4302 22.8384 29.5605 22.6777 29.5605H7.79098C7.63025 29.5605 7.5 29.4302 7.5 29.2695V20.4718Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.2352 18.614C15.8073 18.614 16.2711 18.1502 16.2711 17.5781C16.2711 17.006 15.8073 16.5422 15.2352 16.5422C14.663 16.5422 14.1992 17.006 14.1992 17.5781C14.1992 18.1502 14.663 18.614 15.2352 18.614Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.8541 3H10.8145" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.8939 3H14.8542" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M19.9335 3H18.8938" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.1367 23H19.8633" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.1367 25.1094H19.8633" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.1367 27.2188H19.8633" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <g clip-path="url(#clip1_318_2329)">
+            <path d="M63.3497 4.09155H43.0002" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M43.1219 4.09155H40.4395V24.9324H59.5246" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M62.6002 4.09155H69.5606V24.9324H58.8972" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M69.4995 21.2808H40.4995" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M54.0901 23.1125H55.9101" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M56.8201 24.9326H53.1799V27.7406H56.8201V24.9326Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M60.4601 27.7404H49.5398V29.5605H60.4601V27.7404Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_318_2329">
+              <rect width="30" height="30" fill="white"/>
+            </clipPath>
+            <clipPath id="clip1_318_2329">
+              <rect width="30" height="30" fill="white" transform="translate(40)"/>
+            </clipPath>
+          </defs>
+        </svg>
       </label>
-
-
-
-      <svg width="70" height="30" viewBox="0 0 70 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="add_pic">
-        <g clip-path="url(#clip0_318_2329)">
-          <path d="M7.5 20.4718V0.73043C7.5 0.569707 7.63031 0.439453 7.79098 0.439453H22.6777C22.8384 0.439453 22.9687 0.569766 22.9687 0.73043V29.2695C22.9687 29.4302 22.8384 29.5605 22.6777 29.5605H7.79098C7.63025 29.5605 7.5 29.4302 7.5 29.2695V20.4718Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M15.2352 18.614C15.8073 18.614 16.2711 18.1502 16.2711 17.5781C16.2711 17.006 15.8073 16.5422 15.2352 16.5422C14.663 16.5422 14.1992 17.006 14.1992 17.5781C14.1992 18.1502 14.663 18.614 15.2352 18.614Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M11.8541 3H10.8145" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M15.8939 3H14.8542" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M19.9335 3H18.8938" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M10.1367 23H19.8633" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M10.1367 25.1094H19.8633" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M10.1367 27.2188H19.8633" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g clip-path="url(#clip1_318_2329)">
-          <path d="M63.3497 4.09155H43.0002" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M43.1219 4.09155H40.4395V24.9324H59.5246" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M62.6002 4.09155H69.5606V24.9324H58.8972" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M69.4995 21.2808H40.4995" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M54.0901 23.1125H55.9101" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M56.8201 24.9326H53.1799V27.7406H56.8201V24.9326Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M60.4601 27.7404H49.5398V29.5605H60.4601V27.7404Z" stroke="" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <defs>
-          <clipPath id="clip0_318_2329">
-            <rect width="30" height="30" fill="white"/>
-          </clipPath>
-          <clipPath id="clip1_318_2329">
-            <rect width="30" height="30" fill="white" transform="translate(40)"/>
-          </clipPath>
-        </defs>
-      </svg>
 
     </div>
     <div class="summary">
@@ -158,7 +155,7 @@ export default {
   margin: 0;
 }
 
-.additional {
+.additional .custom_check{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -177,6 +174,9 @@ export default {
   color: #747474;
 }
 
+.add_pic {
+  margin-left: 10px;
+}
 
 .add_pic path {
   stroke: #747474;
@@ -268,11 +268,12 @@ input.promo:focus-visible {
 /* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 7px;
   left: 0;
   height: 14px;
   width: 14px;
   background-color: #eee;
+  border-radius: 4px;
 }
 
 /* On mouse-over, add a grey background color */
@@ -311,7 +312,7 @@ input.promo:focus-visible {
 }
 
 
-.custom_check input:checked .add_pic path {
+.custom_check input:checked ~ .add_pic path {
   stroke: var(--tg-theme-text-color);
 }
 </style>
