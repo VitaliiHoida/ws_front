@@ -185,7 +185,7 @@ export default {
           chatId
         };
 
-        axios.post('https://wsbot.back.staj.fun/web-data', data, {headers: {'Content-Type': 'application/json'}}).then(
+        axios.post('https://api.wsbot.staj.fun/web-data', data, {headers: {'Content-Type': 'application/json'}}).then(
             (response) => {
               tg.openInvoice(response.data, function (status) {
                 if (status == 'paid') {
