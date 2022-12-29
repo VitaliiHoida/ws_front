@@ -316,7 +316,7 @@ input.promo:focus-visible {
   stroke: var(--tg-theme-text-color);
 }
 
-.custom_check input:checked ~ .text {
+.custom_check input:checked ~ span.text {
   color: var(--tg-theme-text-color);
 }
 </style>
