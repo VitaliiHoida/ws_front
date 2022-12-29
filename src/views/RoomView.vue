@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="additional">
-      <label class="custom_check"><span>Додаткове обладнання:</span>
+      <label class="custom_check"><span class="text">Додаткове обладнання:</span>
         <input type="checkbox" class="check">
         <span class="checkmark"></span>
         <svg width="70" height="30" viewBox="0 0 70 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="add_pic">
@@ -314,5 +314,9 @@ input.promo:focus-visible {
 
 .custom_check input:checked ~ .add_pic path {
   stroke: var(--tg-theme-text-color);
+}
+
+.custom_check input:checked ~ .text {
+  color: var(--tg-theme-text-color);
 }
 </style>
