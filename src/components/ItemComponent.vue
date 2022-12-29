@@ -162,7 +162,7 @@ export default {
       const {tg, queryId, user, chatId} = useTelegram();
       let order = {};
       order.user_name = user.first_name + ' ' + user.last_name;
-      order.photo = this.course.ACF.bot_image;
+      // order.photo = this.course.ACF.bot_image;
       order.sum_to_pay = this.sum;
 
       tg.MainButton.setParams({
