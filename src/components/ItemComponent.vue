@@ -185,7 +185,7 @@ export default {
           chatId
         };
 
-        axios.post('https://localhost:8000/web-data', data, {headers: {'Content-Type': 'application/json'}}).then(
+        axios.post('https://localhost:8000/', data, {headers: {'Content-Type': 'application/json'}}).then(
             (response) => {
               tg.openInvoice(response.data, function (status) {
                 if (status == 'paid') {
