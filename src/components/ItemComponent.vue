@@ -8,16 +8,16 @@
         <div>
           <p>{{ text_sm }}</p>
           <CounterComponent :value="sm"
-                            @add="addSm()"
-                            @remove="removeSm()"
+                            @add="add('sm')"
+                            @remove="remove('sm')"
           />
         </div>
 
         <div>
           <p>{{ text_lg }}</p>
           <CounterComponent :value="lg"
-                            @add="addLg()"
-                            @remove="removeLg()"
+                            @add="add('lg')"
+                            @remove="remove('lg')"
           />
         </div>
       </div>
@@ -146,17 +146,11 @@ export default {
     }
   },
   methods: {
-    addSm() {
-      this.sm++;
+    add(variable) {
+      this[variable]++;
     },
-    addLg() {
-      this.lg++;
-    },
-    removeSm() {
-      this.sm--;
-    },
-    removeLg() {
-      this.lg--;
+    remove(variable) {
+      this[variable]--;
     },
     makeOrder() {
       const {tg, queryId, user, chatId} = useTelegram();
