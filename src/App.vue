@@ -27,7 +27,7 @@
         </div>
         <div class="phones">
           <ul>
-            <li><a href="Ofert.pdf" download class="decor">Публічна оферта</a></li>
+            <li><a href="oferta.pdf" download class="decor">Публічна оферта</a></li>
             <li><a href="tel:+380984775490">+380984775490</a></li>
           </ul>
         </div>
