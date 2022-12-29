@@ -185,14 +185,13 @@ export default {
           chatId
         };
 
-        axios.post('https://localhost:8000/web-data', data, {headers: {'Content-Type': 'application/json'}}).then(
+        axios.post('https://127.0.0.1:8000/web-data', data, {headers: {'Content-Type': 'application/json'}}).then(
             (response) => {
               tg.openInvoice(response.data, function (status) {
                 if (status == 'paid') {
                   tg.close();
                 } else if (status == 'failed') {
                   tg.HapticFeedback.notificationOccurred('error');
-                  //Cafe.showStatus('Payment has been failed.');
                 } else {
                   tg.HapticFeedback.notificationOccurred('warning');
                 }
