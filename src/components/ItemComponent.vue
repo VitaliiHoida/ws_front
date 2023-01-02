@@ -224,6 +224,8 @@ export default {
 
 .pic {
   padding: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .pic img {
