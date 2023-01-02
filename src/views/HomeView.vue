@@ -30,13 +30,16 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   padding: 50px 0;
 }
 
 .items_wrap .item {
   width: 49%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .items_wrap .item img {
