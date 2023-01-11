@@ -6,7 +6,7 @@
           <img src="@/assets/img/place.png" alt="place in space" />
           <p>Місце в коворкінгу</p>
           <div class="price_info">
-          <div  class="price">300 грн/день <span>*</span></div>
+          <div  class="price">400 грн/день <span>*</span></div>
           <div class="price">3000 грн/міс <span>*</span></div>
           </div>
           <router-link class="button" :to="{name: 'place'}">Обрати</router-link>
