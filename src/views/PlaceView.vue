@@ -4,7 +4,7 @@
                    pic_name="place.png"
                    text_sm="Кількість днів"
                    text_lg="Кількість місяців"
-                   :price_sm="2"
+                   :price_sm="400"
                    :price_lg="3000"
                    show_addit
     />
